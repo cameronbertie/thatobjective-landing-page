@@ -1,0 +1,70 @@
+.fifth-section-outer-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+.fifth-section-inner-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.call-to-action-heading {
+ font-weight: 900;
+ font-size: 32px;
+ color: white; 
+ text-align: center;
+ text-transform: uppercase;
+}
+
+.call-to-action-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.call-to-action-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 16px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.call-to-action-button-container {
+  text-align: center;
+}
+
+.banner-heading {
+  font-weight: 700;
+  font-size: 18.72px;
+  background: -webkit-linear-gradient(left, #c18794 , #492833);
+   background: -o-linear-gradient(right, #c18794, #492833);
+   background: -moz-linear-gradient(right, #c18794, #492833);
+   background: linear-gradient(to right, #c18794, #492833); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Small devices (phones 576px and down) */
+@media only screen and (max-width: 576px) {
+  .fifth-section-inner-container {
+    padding: 0 20px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, between 576px and 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .fifth-section-inner-container {
+    padding: 0 60px;
+  }
+
+}

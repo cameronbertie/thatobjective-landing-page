@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+p {
+    font-weight: 400;
+}
+
+span {
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+}
+
+h6 {
+    font-family: "Inter", sans-serif;
+    color: white;
+    margin: 0;
+    font-weight: 400;
+    text-align: right;
+}
+
+.collapse {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    .collapse {
+        max-width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .collapse {
+        max-width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .collapse {
+        max-width: 720px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .collapse {
+        max-width: 960px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .collapse {
+        max-width: 1140px;
+    }
+}
+
+/* Extra extra large devices (extra large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+    .collapse {
+        max-width: 1320px;
+    }
+}

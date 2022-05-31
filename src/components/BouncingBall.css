@@ -1,0 +1,12 @@
+.bouncing-ball-container {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ball-style {
+    display: block;
+    width: auto;
+    height: 1rem;
+}
