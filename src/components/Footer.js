@@ -13,9 +13,9 @@ function Footer() {
           </a>
           </div>
           <br></br>
-          <h4 className="footer-email"><a href="mailto:contact@10controls.com">contact@10controls.com</a></h4>
+          {/* <h4 className="footer-email"><a href="mailto:contact@10controls.com">contact@10controls.com</a></h4> */}
           <h5 className="footer-copyright">The design and appearance of the app is not final and is subject to change upon release</h5>
-          <h5 className="footer-copyright">All Rights Reserved © 2022 10 Controls</h5>
+          <h5 className="footer-copyright">Created by Cameron Bertie</h5>
         </div>
       </footer>
     </>
